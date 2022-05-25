@@ -11,8 +11,9 @@ namespace ConsoleITVDN
         }
 
         static  int Div (int oper1, int oper2) 
-        { 
-            return oper1/oper2; 
+        {
+            if (oper1 != 0 && oper2 != 0) return oper1 / oper2;
+            else return 0;
         }
 
         static void Main(string[] args)
