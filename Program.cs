@@ -25,6 +25,11 @@ namespace ConsoleITVDN
         {
             return oper1 * oper2;
         }
+        static double Pow(double a, double b) 
+        { 
+            return Math.Pow(a,);
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("My first commit");
