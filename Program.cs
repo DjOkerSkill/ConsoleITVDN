@@ -20,6 +20,16 @@ namespace ConsoleITVDN
         { 
             return oper1 - oper2;
         }
+
+        static int Mult(int oper1, int oper2)
+        {
+            return oper1 * oper2;
+        }
+        static double Pow(double a, double b) 
+        { 
+            return Math.Pow(a,b);
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("My first commit");
