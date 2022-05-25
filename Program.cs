@@ -21,6 +21,10 @@ namespace ConsoleITVDN
             return oper1 - oper2; 
         }
 
+        static int Mult(int oper1, int oper2)
+        {
+            return oper1 * oper2;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("My first commit");
