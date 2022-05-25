@@ -16,6 +16,11 @@ namespace ConsoleITVDN
             else return 0;
         }
 
+        static int Sub(int oper1, int oper2) 
+        { 
+            return oper1 + oper2; 
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("My first commit");
