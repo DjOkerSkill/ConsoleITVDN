@@ -27,7 +27,7 @@ namespace ConsoleITVDN
         }
         static double Pow(double a, double b) 
         { 
-            return Math.Pow(a,);
+            return Math.Pow(a,b);
         }
 
         static void Main(string[] args)
