@@ -18,7 +18,7 @@ namespace ConsoleITVDN
 
         static int Sub(int oper1, int oper2) 
         { 
-            return oper1 + oper2; 
+            return oper1 - oper2; 
         }
 
         static void Main(string[] args)
