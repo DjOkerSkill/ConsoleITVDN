@@ -25,10 +25,10 @@ namespace ConsoleITVDN
         {
             return oper1 * oper2;
         }
-        static double Pow(double a, double b) 
-        { 
-            return Math.Pow(a,b);
-        }
+       // static double Pow(double a, double b) 
+       // { 
+       //     return Math.Pow(a,b);
+       // }
 
         static void Main(string[] args)
         {
