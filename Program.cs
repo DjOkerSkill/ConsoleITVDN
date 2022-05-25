@@ -9,6 +9,12 @@ namespace ConsoleITVDN
         { 
             return num1 + num2;
         }
+
+        static  int Div (int oper1, int oper2) 
+        { 
+            return oper1/oper2; 
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("My first commit");
