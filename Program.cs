@@ -1,41 +1,33 @@
 ﻿using System;
-using System.IO;
+using System.Collections.Generic;
+
 
 namespace ConsoleITVDN
 {
-    internal class Program
+    class Program
     {
-        static int Addition(int num1, int num2) 
-        { 
-            return num1 + num2;
-        }
-
-        static  int Div (int oper1, int oper2) 
+        public static void Main()
         {
-            if (oper1 != 0 && oper2 != 0) return oper1 / oper2;
-            else return 0;
-        }
+            List<User> listuser = new List<User>
+            {
+             new User { Name = "Roman", Login = "123", IsPremium = true },
 
-        static int Sub(int oper1, int oper2) 
-        { 
-            return oper1 - oper2; 
-        }
+             new User { Name = "Igor", Login = "453", IsPremium = false },
 
-        static int Mult(int oper1, int oper2)
-        {
-            return oper1 * oper2;
-        }
-        static double Pow(double a, double b) 
-        { 
-            return Math.Pow(a,b);
-        }
+             new User { Name = "Ivan", Login = "567", IsPremium = true },
+            };
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine("My first commit");
-            Console.WriteLine("Hello world");
-            Console.WriteLine();
-        }       
 
+            foreach (var item in listuser)
+            {
+                if (item.IsPremium == true)
+                    Console.WriteLine($"Hello {item.Name}");
+                else
+                   User.ShowAds();
+
+            }
+        }
     }
 }
+
+    
